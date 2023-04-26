@@ -1,5 +1,8 @@
-﻿using Algoritms.Search;
+﻿using Algoritms.Arrays;
+using Algoritms.Recursive;
+using Algoritms.Search;
 using Algoritms.Sort;
+using Algoritms.Trees;
 
 namespace Algoritms
 {
@@ -7,7 +10,7 @@ namespace Algoritms
     {
         static void Main(string[] args)
         {
-            IAlgo algo = new BubbleSort();
+            IAlgo algo = new Traverse();
             algo.DoIt();
         }
     }
